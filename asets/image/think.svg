@@ -1,0 +1,8 @@
+<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0.950938 106.572C-1.74967 80.8771 16.8906 57.8583 42.5851 55.1577L557.929 0.992883C583.623 -1.70772 606.642 16.9325 609.343 42.6271L618.464 129.412C621.165 155.107 602.524 178.126 576.83 180.826L61.4864 234.991C35.7919 237.692 12.773 219.051 10.0724 193.357L0.950938 106.572Z" fill="white"/>
+    <path d="M89.1027 18.8C118.452 20.1024 140.191 38.7036 146.321 52.3958L87.4127 58.5873C92.9202 46.0475 88.7354 31.6786 85.6812 24.0998C84.6767 21.607 86.4177 18.6809 89.1027 18.8Z" fill="white"/>
+    <text x="30%" y="60%" font-family="Montserrat" font-size="36px" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle" transform="rotate(-6)" style="text-transform: uppercase;" >
+        <tspan x="35%" dy="-1.2em">тож слідкуй за нами,</tspan>
+        <tspan x="35%" dy="1.2em" >щоб бути в курсі</tspan>
+    </text>
+</svg>

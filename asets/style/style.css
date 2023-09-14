@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Cy Grotesk';
+    src: url('/asets/fonts/kobuzan-cy-grotesk-grand-dark.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #FFDF00;  
+}
+
+.bacground_content{
+    background-image: url('/asets/image/bacground_header.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+.menu_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 32px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu_list ul{
+display: flex;
+padding-left: 100px;
+gap: 90px;
+}
+li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family:'Cy Grotesk';
+    font-size: 18px;
+}
+
+.logo{
+    padding: 47px 0 110px 0;
+    display: flex;
+    justify-content: center
+}
+
+.big_abs{   
+    position: relative;
+}
+
+.about_company{
+    position: relative;
+    background-color: #FFF8E1;
+    border-radius: 60px;
+}
+
+.about_company h2{
+    font-family:'Cy Grotesk';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding:128px 0 82px 137px;
+    width: 502px;
+}
+
+.modern_text_company{
+    padding:0 0 195px 137px;
+    width: 500px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.abs_1{
+    position: absolute;
+    top: 70.3%;
+    left: 15%;
+}
+
+.abs_image{
+    position: relative;
+}
+.abs_image img{
+    position: absolute;
+}
+.recept{
+    left: 700px;
+    bottom: -37px ;
+}
+.vanilla_stick_1{
+    left: 828px;
+    bottom: 179px;
+}
+.poppy_donat{
+    right: 60px;
+    bottom: -81px;
+}
+.donat{
+    right: 0;
+    bottom: 190px;
+}
+.mafin{
+    right: 500px;
+    bottom: 350px;
+}
+.vanilla_stick_2{
+    right: 155px;
+    bottom: 480px;
+}
+.arrow_top{
+    bottom: -200px;
+    right: 80px;
+}
+
+.product_catalog h2{
+    text-align: center;
+    font-family: "Cy Grotesk";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    padding-top: 240px;
+}
+.product_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.card_1 img,
+.card_2 img, 
+.card_3 img, 
+.card_4 img{
+    width: 600px;
+}
+.show_more a{
+    text-decoration: none;
+    width: 343px;
+    height: 99px;   
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    border: 1px solid black;
+    border-bottom: 7px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+.show_more{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sotial_media{
+    background-image: url('/asets/image/bacground_header.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.sotial_info{
+    display: flex;
+}
+.text_info h3{
+    color: #000;
+    font-family: "Cy Grotesk";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 700px;
+    padding: 100px 0 30px 0;
+}
+
+.image_info{
+    position: relative;
+}
+.hand_img{
+    position: absolute;
+    width: 300px;
+    top: 392px;
+    left: -120px;
+}
+.inst_img{
+    position: absolute;
+    width: 400px;
+    left: -100px;
+    z-index: 1;
+}
+.fb_img{
+    position: absolute;
+    width: 400px;
+    top: 258px;
+    left: 162px;
+}
+.interest_text_1{
+    position: relative;
+}
+.interest_text_1 h3{
+    position: absolute;
+    right: 50%;
+    bottom: -100px;
+    color: #000;
+    text-align: center;
+    font-family: "Cy Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+
+.our_sity{
+    background-color: #FFF8E0;
+}
