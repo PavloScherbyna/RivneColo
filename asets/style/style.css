@@ -221,20 +221,62 @@ li{
 }
 .interest_text_1{
     position: relative;
+
 }
 .interest_text_1 h3{
     position: absolute;
-    right: 50%;
-    bottom: -100px;
+    left: 29%;
+    bottom: -130px;
     color: #000;
     text-align: center;
     font-family: "Cy Grotesk";
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     letter-spacing: -0.8px;
+    width: 600px;
+    text-transform: uppercase;
 }
 
 .our_sity{
+    position: relative;
+    text-align: center;
     background-color: #FFF8E0;
+}
+.interest_text_2{
+    color: #000;
+    text-align: center;
+    font-family: "Cy Grotesk";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    width: 800px;
+    margin-left: 22%;
+}
+
+.showplace_block{
+    display: flex;
+    justify-content: space-between;
+    gap: 165px;
+}
+.text_block{
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 150px;
+}
+.text_block p{
+    padding-bottom: 100px;
+}
+.rivne_img img{
+    width: 500px;
+}
+
+.bublik_block{
+    display: flex;
+    flex-direction: column;
 }
